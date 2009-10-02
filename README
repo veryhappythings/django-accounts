@@ -1,0 +1,10 @@
+django-accounts
+
+This is the bare minimum stuff you need to get django.contrib.auth up and running. It seems like quite a lot to me, so maybe I'm missing the point. If I am, please let me know!
+
+Here's what it contains:
+
+accounts
+ - 3 templates, in templates/registration (login, logged_out, profile)
+ - urls.py file containing the urls logging in, out, and getting profiles
+ - a view to get profiles (ok, technically you don't need this)
